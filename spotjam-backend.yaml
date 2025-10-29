@@ -1,0 +1,12 @@
+name: spotjam-backend
+app: dockerfile
+options:
+  ports: 8080
+  dockerfile: backend/Dockerfile  # 📌 backend에 Dockerfile이 있으면 이렇게!
+  env:
+    - name: SPRING_DATASOURCE_URL
+      value: jdbc:postgresql://svc.sel3.cloudtype.app:30860/spotjam-db
+    - name: SPRING_DATASOURCE_USERNAME
+      value: root
+    - name: SPRING_DATASOURCE_PASSWORD
+      value: root

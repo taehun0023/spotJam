@@ -1,0 +1,16 @@
+# Java (backend)
+/backend/build/
+/backend/out/
+/backend/.gradle/
+/backend/.idea/
+*.iml
+
+# Node (frontend)
+/frontend/node_modules/
+/frontend/.next/
+/frontend/.env.local
+
+# OS/Editor
+.DS_Store
+*.log
+backend/gradle/wrapper/gradle-8.14.3-bin.zip
