@@ -4,10 +4,7 @@
 // - 백엔드 /_health 호출해서 상태 표시
 // - 환경변수: NEXT_PUBLIC_API_BASE (예: https://port-0-spotjam-xxxx.sel3.cloudtype.app)
 
-type Health = {
-  status: string;
-  ts: number;
-};
+type Health = { status: string } & Record<string, unknown>;
 
 type FetchResult<T> =
   | { ok: true; data: T }
@@ -27,7 +24,7 @@ async function getHealth(): Promise<FetchResult<Health>> {
   }
 
   try {
-    const url = `${base.replace(/\/+$/, "")}/_health`;
+    const url = `${base.replace(/\/+$/, "")}/actuator/health`;
     const res = await fetch(url, { cache: "no-store" });
     if (!res.ok) {
       return { ok: false, error: `/_health 요청 실패 (status ${res.status})` };

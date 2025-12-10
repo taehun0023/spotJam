@@ -6,8 +6,11 @@ import java.util.Map;
 
 @RestController
 public class HealthController {
-  @GetMapping("/_health")
-  public Map<String, Object> health() {
-    return Map.of("status", "ok", "ts", System.currentTimeMillis());
-  }
+    @GetMapping("/_health")
+    public Map<String, Object> health() {
+        return Map.of(
+            "status", "ok",
+            "ts", System.currentTimeMillis()
+        );
+    }
 }
