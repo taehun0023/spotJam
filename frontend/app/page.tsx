@@ -1,65 +1,94 @@
-import Image from "next/image";
+// app/page.tsx
+// Next.js App Router (Server Component)
+// - ESLint: @typescript-eslint/no-explicit-any 사용 안 함
+// - 백엔드 /_health 호출해서 상태 표시
+// - 환경변수: NEXT_PUBLIC_API_BASE (예: https://port-0-spotjam-xxxx.sel3.cloudtype.app)
 
-export default function Home() {
+type Health = {
+  status: string;
+  ts: number;
+};
+
+type FetchResult<T> =
+  | { ok: true; data: T }
+  | { ok: false; error: string };
+
+function getApiBase(): string | null {
+  // 서버 컴포넌트에서도 NEXT_PUBLIC_*는 빌드타임 노출 가능
+  // 환경변수 누락 시 null 반환
+  const base = process.env.NEXT_PUBLIC_API_BASE ?? "";
+  return base.trim() ? base : null;
+}
+
+async function getHealth(): Promise<FetchResult<Health>> {
+  const base = getApiBase();
+  if (!base) {
+    return { ok: false, error: "환경변수 NEXT_PUBLIC_API_BASE가 설정되지 않았습니다." };
+  }
+
+  try {
+    const url = `${base.replace(/\/+$/, "")}/_health`;
+    const res = await fetch(url, { cache: "no-store" });
+    if (!res.ok) {
+      return { ok: false, error: `/_health 요청 실패 (status ${res.status})` };
+    }
+
+    // 런타임 타입 체크(얕게)
+    const raw = (await res.json()) as unknown;
+    if (
+      typeof raw === "object" &&
+      raw !== null &&
+      "status" in raw &&
+      "ts" in raw &&
+      typeof (raw as { status: unknown }).status === "string" &&
+      typeof (raw as { ts: unknown }).ts === "number"
+    ) {
+      const data = raw as Health;
+      return { ok: true, data };
+    }
+    return { ok: false, error: "서버 응답 형식이 예상과 다릅니다." };
+  } catch (e) {
+    const msg = e instanceof Error ? e.message : "unknown error";
+    return { ok: false, error: `요청 중 오류: ${msg}` };
+  }
+}
+
+export default async function Page() {
+  const health = await getHealth();
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <main className="px-4 py-8 md:px-8">
+      <section className="max-w-2xl">
+        <h1 className="text-2xl md:text-4xl font-bold">Hello World – SpotJam</h1>
+        <p className="mt-3 text-gray-600">
+          Next.js on Vercel ✅ / Spring Boot on Cloudtype ✅
+        </p>
+
+        <div className="mt-6 rounded-2xl border p-4 bg-white shadow-sm">
+          <h2 className="text-lg font-semibold">Backend Health</h2>
+          {health.ok ? (
+            <pre className="mt-3 overflow-x-auto rounded-xl bg-[#0b0b0b] p-3 text-[#a6ffad]">
+              {JSON.stringify(health.data, null, 2)}
+            </pre>
+          ) : (
+            <div className="mt-3 rounded-xl border border-red-300 bg-red-50 p-3 text-red-700">
+              {health.error}
+            </div>
+          )}
+          <div className="mt-3 text-sm text-gray-500">
+            API Base: <code>{process.env.NEXT_PUBLIC_API_BASE ?? "(not set)"}</code>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
+
+        <div className="mt-8 grid gap-3">
+          <a href="/map" className="inline-flex items-center justify-center rounded-xl bg-black px-4 py-3 text-white">
+            MAP으로 이동
           </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
+          <a href="/posts" className="inline-flex items-center justify-center rounded-xl border px-4 py-3">
+            POSTS로 이동
           </a>
         </div>
-      </main>
-    </div>
+      </section>
+    </main>
   );
 }
