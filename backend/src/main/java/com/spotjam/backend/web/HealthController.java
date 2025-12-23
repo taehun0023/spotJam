@@ -6,6 +6,7 @@ import java.util.Map;
 
 @RestController
 public class HealthController {
+
     @GetMapping("/_health")
     public Map<String, Object> health() {
         return Map.of(
@@ -13,4 +14,5 @@ public class HealthController {
             "ts", System.currentTimeMillis()
         );
     }
+    
 }
