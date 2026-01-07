@@ -1,0 +1,271 @@
+.page {
+  min-height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  padding: 16px;
+  background: #fbfcea;
+}
+
+.card {
+  width: min(980px, 100%);
+  background: #fbfcea;
+  border: 1px solid #00000033;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.header {
+  height: 64px;
+  display: grid;
+  place-items: center;
+  border-bottom: 1px solid #00000033;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.form {
+  padding: 16px;
+  display: grid;
+  gap: 14px;
+}
+
+.label {
+  display: grid;
+  gap: 6px;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.sectionTitle {
+  font-weight: 800;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #00000033;
+  border-radius: 10px;
+  padding: 0 12px;
+  background: #fff;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.row {
+  display: grid;
+  gap: 8px;
+}
+
+.segment {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid #00000033;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.segBtn {
+  height: 40px;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.active {
+  background: #00000010;
+}
+
+/* ✅ 사진 3칸 */
+.photoSection {
+  display: grid;
+  gap: 8px;
+}
+
+.photoGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.photoSlot {
+  height: 150px;
+  border: 1px solid #00000033;
+  border-radius: 12px;
+  background: #fbfcea;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.plus {
+  width: 48px;
+  height: 48px;
+  border-radius: 999px;
+  background: #00000055;
+  color: #fff;
+  display: grid;
+  place-items: center;
+  font-size: 28px;
+  line-height: 1;
+}
+
+.photoHint {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.hiddenFile {
+  display: none;
+}
+
+/* ✅ 해시태그 */
+.tags {
+  display: grid;
+  gap: 8px;
+}
+
+.tagRow {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 8px;
+}
+
+.addTagBtn {
+  height: 40px;
+  padding: 0 12px;
+  border: 1px solid #00000033;
+  border-radius: 10px;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.chips {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.chip {
+  border: 1px solid #00000033;
+  border-radius: 999px;
+  padding: 6px 10px;
+  background: #fff;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.x {
+  margin-left: 6px;
+  opacity: 0.6;
+}
+
+/* ✅ 에디터 */
+.editorBlock {
+  display: grid;
+  gap: 6px;
+}
+
+.editorWrap {
+  border: 1px solid #00000033;
+  border-radius: 12px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.toolbar {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #00000033;
+  background: #fbfcea;
+}
+
+.toolBtn {
+  width: 40px;
+  height: 34px;
+  border: 1px solid #00000033;
+  border-radius: 10px;
+  background: #fff;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.toolBtn[data-active="true"] {
+  background: #000;
+  color: #fff;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.imageBtn {
+  height: 34px;
+  padding: 0 12px;
+  border: 1px solid #00000033;
+  border-radius: 10px;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+/* ✅ TipTap 실제 입력 영역 */
+.editor {
+  background: #fff;
+}
+
+.editor :global(.ProseMirror) {
+  min-height: 420px;
+  padding: 14px;
+  outline: none;
+  line-height: 1.6;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.editor :global(.ProseMirror p) {
+  margin: 0 0 10px;
+}
+
+.editor :global(.ProseMirror img) {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+  margin: 10px 0;
+}
+
+/* ✅ 제출 버튼 */
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 4px;
+}
+
+.submit {
+  height: 44px;
+  padding: 0 16px;
+  border: 1px solid #00000033;
+  border-radius: 12px;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.submit:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}

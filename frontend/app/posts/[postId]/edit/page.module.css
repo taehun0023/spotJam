@@ -1,0 +1,419 @@
+.post2 {
+  	width: 100%;
+  	height: 852px;
+  	position: relative;
+  	background-color: #fbfcea;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 13px;
+  	color: #000;
+  	font-family: 'Kosugi Maru';
+}
+.body {
+  	position: absolute;
+  	top: 64px;
+  	left: 0px;
+  	width: 393px;
+  	height: 788px;
+  	overflow: hidden;
+}
+.post {
+  	position: absolute;
+  	top: 9px;
+  	left: 11px;
+  	border: 1px solid rgba(0, 0, 0, 0.2);
+  	box-sizing: border-box;
+  	width: 371px;
+  	height: 762px;
+  	overflow: hidden;
+}
+.div {
+  	position: absolute;
+  	top: 705px;
+  	left: 5px;
+  	width: 363px;
+  	height: 57px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.div2 {
+  	position: absolute;
+  	top: 20px;
+  	left: 4px;
+  	border-radius: 5px;
+  	border: 1px solid rgba(0, 0, 0, 0.2);
+  	box-sizing: border-box;
+  	width: 352px;
+  	height: 30px;
+  	overflow: hidden;
+}
+.div3 {
+  	position: absolute;
+  	top: 0px;
+  	left: 33px;
+  	display: flex;
+  	align-items: center;
+  	width: 319px;
+  	height: 30px;
+}
+.pin1Icon {
+  	position: absolute;
+  	top: 6px;
+  	left: 9px;
+  	width: 18px;
+  	height: 18px;
+  	object-fit: cover;
+}
+.b {
+  	position: absolute;
+  	top: 0px;
+  	left: 10px;
+  	font-size: 12px;
+  	display: flex;
+  	font-family: 'Noto Sans JP';
+  	align-items: center;
+  	width: 338px;
+  	height: 20px;
+}
+.div4 {
+  	position: absolute;
+  	top: 358px;
+  	left: 6px;
+  	width: 361px;
+  	height: 349px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	font-size: 12px;
+  	font-family: 'Noto Sans JP';
+}
+.b2 {
+  	position: absolute;
+  	top: 2px;
+  	left: 9px;
+  	display: flex;
+  	align-items: center;
+  	width: 338px;
+  	height: 20px;
+}
+.div5 {
+  	position: absolute;
+  	top: 22px;
+  	left: 3px;
+  	border-radius: 5px;
+  	border: 1px solid rgba(0, 0, 0, 0.2);
+  	box-sizing: border-box;
+  	width: 352px;
+  	height: 319px;
+  	overflow: hidden;
+  	font-size: 13px;
+  	font-family: 'Kosugi Maru';
+}
+.div6 {
+  	position: absolute;
+  	top: 7px;
+  	left: 0px;
+  	display: inline-block;
+  	width: 352px;
+  	height: 250px;
+}
+.div7 {
+  	position: absolute;
+  	top: 293px;
+  	left: 6px;
+  	width: 361px;
+  	height: 63px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	font-family: 'Noto Sans JP';
+}
+.tag {
+  	position: absolute;
+  	top: 27px;
+  	left: 3px;
+  	border-radius: 5px;
+  	border: 1px solid rgba(0, 0, 0, 0.2);
+  	box-sizing: border-box;
+  	width: 352px;
+  	height: 30px;
+  	overflow: hidden;
+}
+.div8 {
+  	position: absolute;
+  	top: 0px;
+  	left: 6px;
+  	font-weight: 500;
+  	display: flex;
+  	align-items: center;
+  	width: 342px;
+  	height: 30px;
+}
+.icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 87px;
+  	width: 29px;
+  	height: 29px;
+  	object-fit: cover;
+}
+.b3 {
+  	position: absolute;
+  	top: 7px;
+  	left: 9px;
+  	font-size: 12px;
+  	display: flex;
+  	align-items: center;
+  	width: 338px;
+  	height: 20px;
+}
+.div9 {
+  	position: absolute;
+  	top: 137px;
+  	left: 6px;
+  	width: 366px;
+  	height: 161px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	font-size: 12px;
+  	font-family: 'Noto Sans JP';
+}
+.icon2 {
+  	position: absolute;
+  	top: 26px;
+  	left: 271px;
+  	width: 94px;
+  	height: 126px;
+}
+.div10 {
+  	position: absolute;
+  	top: 26px;
+  	left: 138px;
+  	border: 1px solid rgba(0, 0, 0, 0.2);
+  	box-sizing: border-box;
+  	width: 126px;
+  	height: 126px;
+  	overflow: hidden;
+}
+.image61 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 126px;
+  	height: 126px;
+  	object-fit: cover;
+}
+.icon3 {
+  	position: absolute;
+  	top: 101px;
+  	left: 101px;
+  	width: 20px;
+  	height: 20px;
+  	object-fit: cover;
+}
+.div11 {
+  	position: absolute;
+  	top: 26px;
+  	left: 4px;
+  	border: 1px solid rgba(0, 0, 0, 0.2);
+  	box-sizing: border-box;
+  	width: 126px;
+  	height: 126px;
+  	overflow: hidden;
+}
+.image21 {
+  	position: absolute;
+  	top: 0px;
+  	left: -1px;
+  	width: 127px;
+  	height: 126px;
+  	object-fit: cover;
+}
+.b4 {
+  	position: absolute;
+  	top: 6px;
+  	left: 9px;
+  	display: flex;
+  	align-items: center;
+  	width: 338px;
+  	height: 20px;
+}
+.div12 {
+  	position: absolute;
+  	top: 72px;
+  	left: 6px;
+  	width: 358px;
+  	height: 67px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.title {
+  	position: absolute;
+  	top: 26px;
+  	left: 2px;
+  	border-radius: 5px;
+  	background-color: #fbfcea;
+  	border: 1px solid rgba(0, 0, 0, 0.1);
+  	box-sizing: border-box;
+  	width: 352px;
+  	height: 33px;
+  	overflow: hidden;
+}
+.shokumiTenkaHotpot {
+  	position: absolute;
+  	top: 0px;
+  	left: 7px;
+  	display: flex;
+  	align-items: center;
+  	width: 346px;
+  	height: 33px;
+}
+.b5 {
+  	position: absolute;
+  	top: 6px;
+  	left: 9px;
+  	font-size: 12px;
+  	display: flex;
+  	font-family: 'Noto Sans JP';
+  	align-items: center;
+  	width: 338px;
+  	height: 20px;
+}
+.div13 {
+  	position: absolute;
+  	top: -2px;
+  	left: -6px;
+  	width: 359px;
+  	height: 63px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	font-size: 15px;
+}
+.div14 {
+  	position: absolute;
+  	top: 21px;
+  	left: 4px;
+  	border-radius: 5px;
+  	border: 1px solid rgba(0, 0, 0, 0.2);
+  	box-sizing: border-box;
+  	width: 352px;
+  	height: 38px;
+  	overflow: hidden;
+}
+.my {
+  	position: absolute;
+  	top: 0px;
+  	left: 289px;
+  	display: flex;
+  	align-items: center;
+  	width: 50px;
+  	height: 38px;
+}
+.icon5 {
+  	position: absolute;
+  	top: 5px;
+  	left: 257px;
+  	width: 29px;
+  	height: 29px;
+  	object-fit: cover;
+}
+.icon6 {
+  	position: absolute;
+  	top: 12px;
+  	left: 241px;
+  	width: 15px;
+  	height: 15px;
+  	object-fit: cover;
+}
+.icon7 {
+  	position: absolute;
+  	top: 12px;
+  	left: 120px;
+  	width: 15px;
+  	height: 15px;
+  	object-fit: cover;
+}
+.group {
+  	position: absolute;
+  	top: 0px;
+  	left: 168px;
+  	display: flex;
+  	align-items: center;
+  	width: 50px;
+  	height: 38px;
+}
+.icon8 {
+  	position: absolute;
+  	top: 7px;
+  	left: 138px;
+  	width: 25px;
+  	height: 25px;
+  	object-fit: cover;
+}
+.icon9 {
+  	position: absolute;
+  	top: 10px;
+  	left: 11px;
+  	width: 18px;
+  	height: 18px;
+  	object-fit: cover;
+}
+.all {
+  	position: absolute;
+  	top: 0px;
+  	left: 61px;
+  	display: flex;
+  	align-items: center;
+  	width: 50px;
+  	height: 38px;
+}
+.icon10 {
+  	position: absolute;
+  	top: 7px;
+  	left: 30px;
+  	width: 25px;
+  	height: 25px;
+  	object-fit: cover;
+}
+.b6 {
+  	position: absolute;
+  	top: 1px;
+  	left: 10px;
+  	font-size: 12px;
+  	display: flex;
+  	font-family: 'Noto Sans JP';
+  	align-items: center;
+  	width: 338px;
+  	height: 20px;
+}
+.head {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 393px;
+  	height: 64px;
+  	overflow: hidden;
+  	text-align: center;
+  	font-size: 22px;
+  	font-family: 'M PLUS 2';
+}
+.spotjam {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 393px;
+  	height: 64px;
+}
+.headChild {
+  	position: absolute;
+  	top: 63.5px;
+  	left: -0.5px;
+  	border-top: 1px solid rgba(0, 0, 0, 0.1);
+  	box-sizing: border-box;
+  	width: 394px;
+  	height: 1px;
+  	transform:  rotate(-0.2deg);
+  	transform-origin: 0 0;
+}
+

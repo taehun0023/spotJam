@@ -1,0 +1,204 @@
+.div {
+  	width: 100%;
+  	height: 852px;
+  	position: relative;
+  	background-color: #fff;
+  	overflow: hidden;
+  	text-align: center;
+  	font-size: 16px;
+  	color: rgba(0, 0, 0, 0.55);
+  	font-family: 'Noto Sans JP';
+}
+.bottomIcon {
+  	position: absolute;
+  	top: 787px;
+  	left: 0px;
+  	width: 393px;
+  	height: 65px;
+  	object-fit: cover;
+}
+.body {
+  	position: absolute;
+  	top: 65px;
+  	left: 0px;
+  	width: 393px;
+  	height: 722px;
+  	overflow: hidden;
+}
+.div2 {
+  	position: absolute;
+  	top: 117px;
+  	left: 0px;
+  	width: 393px;
+  	height: 605px;
+  	overflow: hidden;
+}
+.div3 {
+  	position: absolute;
+  	top: 214px;
+  	left: 29px;
+  	border-radius: 30px;
+  	background-color: rgba(0, 0, 0, 0.06);
+  	width: 335px;
+  	height: 50px;
+}
+.b {
+  	position: absolute;
+  	top: 214px;
+  	left: calc(50% - 38.5px);
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 77px;
+  	height: 50px;
+}
+.div4 {
+  	position: absolute;
+  	top: 144px;
+  	left: 29px;
+  	border-radius: 30px;
+  	background-color: rgba(204, 213, 174, 0.3);
+  	width: 335px;
+  	height: 50px;
+}
+.b2 {
+  	position: absolute;
+  	top: 144px;
+  	left: calc(50% - 38.5px);
+  	display: flex;
+  	color: #b5c1b2;
+  	align-items: center;
+  	justify-content: center;
+  	width: 77px;
+  	height: 50px;
+}
+.div5 {
+  	position: absolute;
+  	top: 74px;
+  	left: 29px;
+  	border-radius: 30px;
+  	background-color: rgba(0, 0, 0, 0.06);
+  	width: 335px;
+  	height: 50px;
+}
+.b3 {
+  	position: absolute;
+  	top: 74px;
+  	left: calc(50% - 38.5px);
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 77px;
+  	height: 50px;
+}
+.b4 {
+  	position: absolute;
+  	top: 21px;
+  	left: 51px;
+  	display: flex;
+  	color: #000;
+  	text-align: left;
+  	align-items: center;
+  	width: 109px;
+  	height: 40px;
+}
+.div6 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 393px;
+  	height: 116px;
+  	overflow: hidden;
+  	font-size: 20px;
+  	color: #fff;
+  	font-family: Inter;
+}
+.div7 {
+  	position: absolute;
+  	top: 46px;
+  	left: 307px;
+  	width: 45px;
+  	height: 45px;
+}
+.child {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	border-radius: 50%;
+  	background-color: rgba(204, 213, 174, 0.4);
+}
+.div8 {
+  	position: absolute;
+  	top: calc(50% - 13.5px);
+  	left: calc(50% - 14.5px);
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 29px;
+  	height: 27px;
+}
+.div9 {
+  	position: absolute;
+  	top: 46px;
+  	left: 240px;
+  	width: 45px;
+  	height: 45px;
+}
+.div11 {
+  	position: absolute;
+  	top: 45px;
+  	left: 174px;
+  	width: 45px;
+  	height: 45px;
+}
+.div13 {
+  	position: absolute;
+  	top: 46px;
+  	left: 107px;
+  	width: 45px;
+  	height: 45px;
+}
+.ellipseDiv {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	border-radius: 50%;
+  	background-color: #ccd5ae;
+}
+.div15 {
+  	position: absolute;
+  	top: 46px;
+  	left: 40px;
+  	width: 45px;
+  	height: 45px;
+}
+.head {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 393px;
+  	height: 64px;
+  	overflow: hidden;
+  	font-size: 20px;
+  	color: #000;
+}
+.b5 {
+  	position: absolute;
+  	top: calc(50% - 16px);
+  	left: calc(50% - 85.5px);
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 171px;
+  	height: 33px;
+}
+

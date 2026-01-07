@@ -21,6 +21,15 @@ export default function Page() {
           					<img className={styles.icon6} alt="" />
           					<div className={styles.div7}>にゃんにゃん</div>
           					<img className={styles.icon7} alt="" />
+          					<div className={styles.div8}>
+            						<img className={styles.icon8} alt="" />
+            						<b className={styles.b}>伝送</b>
+            						<div className={styles.div9}>
+              							<div className={styles.div10}>報告理由</div>
+            						</div>
+            						<img className={styles.icon9} alt="" />
+            						<div className={styles.div11}>この投稿を報告する理由</div>
+          					</div>
         				</div>
       			</div>
       			<div className={styles.head}>

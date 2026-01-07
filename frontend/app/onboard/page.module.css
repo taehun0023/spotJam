@@ -1,0 +1,378 @@
+.div {
+  	width: 100%;
+  	height: 852px;
+  	position: relative;
+  	background-color: #ccd5ae;
+  	overflow: hidden;
+  	text-align: center;
+  	font-size: 10px;
+  	color: rgba(0, 0, 0, 0.3);
+  	font-family: 'Noto Sans JP';
+}
+.head {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 393px;
+  	height: 64px;
+  	overflow: hidden;
+}
+.body {
+  	position: absolute;
+  	top: 64px;
+  	left: 0px;
+  	width: 393px;
+  	height: 718px;
+  	overflow: hidden;
+}
+.sns {
+  	position: absolute;
+  	top: 609px;
+  	left: 0px;
+  	width: 393px;
+  	height: 109px;
+  	overflow: hidden;
+}
+.div2 {
+  	position: absolute;
+  	top: 53px;
+  	left: 306px;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 47px;
+  	height: 18px;
+}
+.googleIcon {
+  	position: absolute;
+  	top: 7px;
+  	left: 306px;
+  	border-radius: 100px;
+  	width: 45px;
+  	height: 45px;
+  	object-fit: cover;
+}
+.div3 {
+  	position: absolute;
+  	top: 53px;
+  	left: 239px;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 47px;
+  	height: 18px;
+}
+.instagram {
+  	position: absolute;
+  	top: 7px;
+  	left: 239px;
+  	border-radius: 100px;
+  	background-color: #fff;
+  	border: 1px solid rgba(0, 0, 0, 0.3);
+  	box-sizing: border-box;
+  	width: 45px;
+  	height: 45px;
+  	overflow: hidden;
+}
+.google1 {
+  	position: absolute;
+  	top: 7px;
+  	left: 7px;
+  	width: 31px;
+  	height: 32px;
+  	flex-shrink: 0;
+}
+.instagramLogoWithThickCircIcon {
+  	position: absolute;
+  	top: -14px;
+  	left: -14px;
+  	width: 73px;
+  	height: 73px;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+.div4 {
+  	position: absolute;
+  	top: 54px;
+  	left: 172px;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 47px;
+  	height: 18px;
+}
+.naverIcon {
+  	position: absolute;
+  	top: 8px;
+  	left: 172px;
+  	border-radius: 100px;
+  	width: 45px;
+  	height: 45px;
+  	object-fit: cover;
+}
+.div5 {
+  	position: absolute;
+  	top: 53px;
+  	left: 103px;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 47px;
+  	height: 18px;
+}
+.kakaoIcon {
+  	position: absolute;
+  	top: 7px;
+  	left: 105px;
+  	border-radius: 100px;
+  	width: 45px;
+  	height: 45px;
+  	object-fit: cover;
+}
+.div6 {
+  	position: absolute;
+  	top: 53px;
+  	left: 37px;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 47px;
+  	height: 18px;
+}
+.line {
+  	position: absolute;
+  	top: 8px;
+  	left: 38px;
+  	border-radius: 100px;
+  	background-color: #fff;
+  	border: 1px solid rgba(0, 0, 0, 0.3);
+  	box-sizing: border-box;
+  	width: 45px;
+  	height: 45px;
+  	overflow: hidden;
+}
+.line1 {
+  	position: absolute;
+  	top: 0px;
+  	left: -2px;
+  	width: 50px;
+  	height: 49px;
+  	flex-shrink: 0;
+}
+.lineAppLogoLineAppSymbolIcon {
+  	position: absolute;
+  	top: -13px;
+  	left: -13px;
+  	width: 73px;
+  	height: 68px;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+.login {
+  	position: absolute;
+  	top: 379px;
+  	left: 0px;
+  	width: 393px;
+  	height: 228px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 16px;
+  	color: rgba(0, 0, 0, 0.5);
+}
+.signup {
+  	position: absolute;
+  	top: 178px;
+  	left: 46px;
+  	border-radius: 5px;
+  	background-color: #fbfcea;
+  	border: 1px solid rgba(0, 0, 0, 0.2);
+  	box-sizing: border-box;
+  	width: 298px;
+  	height: 34px;
+  	overflow: hidden;
+  	text-align: center;
+  	color: #a4b277;
+}
+.signUp {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 297px;
+  	height: 34px;
+}
+.login2 {
+  	position: absolute;
+  	top: 137px;
+  	left: 47px;
+  	border-radius: 5px;
+  	background-color: #a4b277;
+  	border: 1px solid rgba(0, 0, 0, 0.2);
+  	box-sizing: border-box;
+  	width: 298px;
+  	height: 34px;
+  	overflow: hidden;
+  	text-align: center;
+  	color: #fbfcea;
+}
+.forgotPassword {
+  	position: absolute;
+  	top: 121px;
+  	left: 256px;
+  	font-size: 10px;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 86px;
+  	height: 14px;
+}
+.rememberMe {
+  	position: absolute;
+  	top: 121px;
+  	left: 65px;
+  	font-size: 10px;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 86px;
+  	height: 14px;
+}
+.checkBoxIcon {
+  	position: absolute;
+  	top: 123px;
+  	left: 51px;
+  	width: 10px;
+  	height: 10px;
+  	object-fit: cover;
+}
+.pw {
+  	position: absolute;
+  	top: 78px;
+  	left: 47px;
+  	border-radius: 5px;
+  	background-color: #fbfcea;
+  	border: 1px solid rgba(0, 0, 0, 0.3);
+  	box-sizing: border-box;
+  	width: 298px;
+  	height: 39px;
+}
+.div7 {
+  	position: absolute;
+  	top: 78px;
+  	left: 84px;
+  	font-weight: 600;
+  	color: rgba(0, 0, 0, 0.3);
+  	display: flex;
+  	align-items: center;
+  	width: 261px;
+  	height: 39px;
+}
+.passwordimageIcon {
+  	position: absolute;
+  	top: 83px;
+  	left: 312px;
+  	width: 29px;
+  	height: 29px;
+  	object-fit: cover;
+}
+.lockimageIcon {
+  	position: absolute;
+  	top: 82px;
+  	left: 52px;
+  	width: 30px;
+  	height: 30px;
+  	object-fit: cover;
+}
+.id {
+  	position: absolute;
+  	top: 36px;
+  	left: 47px;
+  	border-radius: 5px;
+  	background-color: #fbfcea;
+  	border: 1px solid rgba(0, 0, 0, 0.3);
+  	box-sizing: border-box;
+  	width: 298px;
+  	height: 39px;
+}
+.id2 {
+  	position: absolute;
+  	top: 36px;
+  	left: 84px;
+  	font-weight: 600;
+  	color: rgba(0, 0, 0, 0.3);
+  	display: flex;
+  	align-items: center;
+  	width: 261px;
+  	height: 39px;
+}
+.personimageIcon {
+  	position: absolute;
+  	top: 41.99px;
+  	left: 53px;
+  	width: 27px;
+  	height: 27px;
+  	object-fit: contain;
+}
+.logo {
+  	position: absolute;
+  	top: 75px;
+  	left: 0px;
+  	width: 393px;
+  	height: 219px;
+  	overflow: hidden;
+  	font-size: 36px;
+  	color: #000;
+  	font-family: 'M PLUS 2';
+}
+.icon {
+  	position: absolute;
+  	top: 37px;
+  	left: 65px;
+  	width: 82px;
+  	height: 82px;
+  	object-fit: cover;
+}
+.icon2 {
+  	position: absolute;
+  	top: 37px;
+  	left: 156px;
+  	width: 82px;
+  	height: 82px;
+  	object-fit: cover;
+}
+.icon3 {
+  	position: absolute;
+  	top: 37px;
+  	left: 248px;
+  	width: 82px;
+  	height: 82px;
+  	object-fit: cover;
+}
+.spotjam {
+  	position: absolute;
+  	top: 112px;
+  	left: 65px;
+  	font-weight: 800;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 265px;
+  	height: 69px;
+}
+.bottom {
+  	position: absolute;
+  	top: 787px;
+  	left: 0px;
+  	width: 393px;
+  	height: 65px;
+  	overflow: hidden;
+}
+

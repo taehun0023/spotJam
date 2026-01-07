@@ -1,0 +1,404 @@
+.map {
+  	width: 100%;
+  	height: 852px;
+  	position: relative;
+  	background-color: #fbfcea;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 15px;
+  	color: #000;
+  	font-family: 'Kosugi Maru';
+}
+.body {
+  	position: absolute;
+  	top: 64px;
+  	left: 0px;
+  	background-color: #fbfcea;
+  	width: 393px;
+  	height: 780px;
+  	overflow: hidden;
+}
+.map2 {
+  	position: absolute;
+  	top: 53px;
+  	left: 7px;
+  	border: 1px solid rgba(0, 0, 0, 0.2);
+  	box-sizing: border-box;
+  	width: 378px;
+  	height: 735px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.icon {
+  	position: absolute;
+  	top: -2px;
+  	left: 0px;
+  	width: 378px;
+  	height: 727px;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+.div {
+  	position: absolute;
+  	top: 376px;
+  	left: 0px;
+  	border-radius: 10px 10px 0px 0px;
+  	background-color: #fbfcea;
+  	border: 1px solid rgba(0, 0, 0, 0.2);
+  	box-sizing: border-box;
+  	width: 378px;
+  	height: 351px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.div2 {
+  	position: absolute;
+  	top: 79px;
+  	left: 10px;
+  	border-radius: 5px;
+  	border: 1px solid rgba(0, 0, 0, 0.2);
+  	box-sizing: border-box;
+  	width: 358px;
+  	height: 51px;
+  	overflow: hidden;
+}
+.div3 {
+  	position: absolute;
+  	top: 6px;
+  	left: 32px;
+  	display: flex;
+  	align-items: center;
+  	width: 277px;
+  	height: 16px;
+}
+.div4 {
+  	position: absolute;
+  	top: 26px;
+  	left: 32px;
+  	font-size: 12px;
+  	display: flex;
+  	align-items: center;
+  	width: 320px;
+  	height: 19px;
+}
+.pin1Icon {
+  	position: absolute;
+  	top: 25px;
+  	left: 10px;
+  	width: 18px;
+  	height: 18px;
+  	object-fit: cover;
+}
+.div5 {
+  	position: absolute;
+  	top: 21px;
+  	left: 10px;
+  	border-radius: 5px;
+  	background-color: #ccd5ae;
+  	border: 1px solid rgba(0, 0, 0, 0.2);
+  	box-sizing: border-box;
+  	width: 358px;
+  	height: 51px;
+  	overflow: hidden;
+}
+.div7 {
+  	position: absolute;
+  	top: 26px;
+  	left: 32px;
+  	font-size: 12px;
+  	display: flex;
+  	align-items: center;
+  	width: 305px;
+  	height: 19px;
+}
+.child {
+  	position: absolute;
+  	top: 8px;
+  	left: 178px;
+  	border-top: 2px solid rgba(0, 0, 0, 0.3);
+  	box-sizing: border-box;
+  	width: 22px;
+  	height: 2px;
+}
+.div8 {
+  	position: absolute;
+  	top: 481px;
+  	left: 0px;
+  	border-radius: 10px 10px 0px 0px;
+  	background-color: #fbfcea;
+  	border: 1px solid rgba(0, 0, 0, 0.3);
+  	box-sizing: border-box;
+  	width: 378px;
+  	height: 246px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	font-size: 12px;
+}
+.div9 {
+  	position: absolute;
+  	top: 219px;
+  	left: 349px;
+  	font-size: 13px;
+  	font-family: 'Noto Sans JP';
+  	text-align: center;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 29px;
+  	height: 25px;
+}
+.div10 {
+  	position: absolute;
+  	top: 219px;
+  	left: 29px;
+  	display: flex;
+  	align-items: center;
+  	width: 305px;
+  	height: 19px;
+}
+.icon2 {
+  	position: absolute;
+  	top: 219px;
+  	left: 7px;
+  	width: 18px;
+  	height: 18px;
+  	object-fit: cover;
+}
+.div11 {
+  	position: absolute;
+  	top: 197px;
+  	left: 29px;
+  	display: flex;
+  	align-items: center;
+  	width: 305px;
+  	height: 19px;
+}
+.icon3 {
+  	position: absolute;
+  	top: 196px;
+  	left: 7px;
+  	width: 18px;
+  	height: 18px;
+  	object-fit: cover;
+}
+.gals {
+  	position: absolute;
+  	top: 160px;
+  	left: 9px;
+  	font-size: 10px;
+  	font-weight: 500;
+  	font-family: 'Noto Sans JP';
+  	display: flex;
+  	align-items: center;
+  	width: 304px;
+  	height: 16px;
+}
+.photo2Icon {
+  	position: absolute;
+  	top: 35px;
+  	left: 134px;
+  	width: 120px;
+  	height: 120px;
+  	object-fit: cover;
+}
+.photo1Icon {
+  	position: absolute;
+  	top: 35px;
+  	left: 9px;
+  	width: 120px;
+  	height: 120px;
+  	object-fit: cover;
+}
+.icon4 {
+  	position: absolute;
+  	top: 6px;
+  	left: 345px;
+  	width: 28px;
+  	height: 28px;
+  	object-fit: cover;
+}
+.icon5 {
+  	position: absolute;
+  	top: 2px;
+  	left: 319px;
+  	width: 36px;
+  	height: 36px;
+  	object-fit: cover;
+}
+.div12 {
+  	position: absolute;
+  	top: 12px;
+  	left: 15px;
+  	font-size: 15px;
+  	display: flex;
+  	align-items: center;
+  	width: 277px;
+  	height: 16px;
+}
+.icon6 {
+  	position: absolute;
+  	top: 211px;
+  	left: 181px;
+  	width: 36px;
+  	height: 46px;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+.icon7 {
+  	position: absolute;
+  	top: 222px;
+  	left: 251px;
+  	width: 36px;
+  	height: 46px;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+.div13 {
+  	position: absolute;
+  	top: 57px;
+  	left: 12px;
+  	border-radius: 5px;
+  	background-color: #fbfcea;
+  	border: 1px solid rgba(0, 0, 0, 0.3);
+  	box-sizing: border-box;
+  	width: 255px;
+  	height: 38px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.icon8 {
+  	position: absolute;
+  	top: 10px;
+  	left: 181px;
+  	width: 18px;
+  	height: 18px;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+.my {
+  	position: absolute;
+  	top: 0px;
+  	left: 230px;
+  	display: flex;
+  	align-items: center;
+  	width: 50px;
+  	height: 38px;
+  	flex-shrink: 0;
+}
+.icon9 {
+  	position: absolute;
+  	top: 5px;
+  	left: 198px;
+  	width: 29px;
+  	height: 29px;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+.icon10 {
+  	position: absolute;
+  	top: 12px;
+  	left: 90px;
+  	width: 15px;
+  	height: 15px;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+.group {
+  	position: absolute;
+  	top: 0px;
+  	left: 137px;
+  	display: flex;
+  	align-items: center;
+  	width: 50px;
+  	height: 38px;
+  	flex-shrink: 0;
+}
+.icon11 {
+  	position: absolute;
+  	top: 7px;
+  	left: 107px;
+  	width: 25px;
+  	height: 25px;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+.icon12 {
+  	position: absolute;
+  	top: 10px;
+  	left: 11px;
+  	width: 18px;
+  	height: 18px;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+.all {
+  	position: absolute;
+  	top: 0px;
+  	left: 61px;
+  	display: flex;
+  	align-items: center;
+  	width: 50px;
+  	height: 38px;
+  	flex-shrink: 0;
+}
+.icon13 {
+  	position: absolute;
+  	top: 7px;
+  	left: 30px;
+  	width: 25px;
+  	height: 25px;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+.div14 {
+  	position: absolute;
+  	top: 9px;
+  	left: 12px;
+  	border-radius: 10px;
+  	background-color: #fff;
+  	border: 1px solid #000;
+  	box-sizing: border-box;
+  	width: 368px;
+  	height: 36px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.bottonIcon {
+  	position: absolute;
+  	top: 8px;
+  	left: 342px;
+  	width: 19px;
+  	height: 19px;
+  	object-fit: cover;
+}
+.head {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 393px;
+  	height: 64px;
+  	overflow: hidden;
+  	text-align: center;
+  	font-size: 22px;
+  	font-family: 'M PLUS 2';
+}
+.headChild {
+  	position: absolute;
+  	top: 63.5px;
+  	left: -0.5px;
+  	border-top: 1px solid rgba(0, 0, 0, 0.2);
+  	box-sizing: border-box;
+  	width: 394px;
+  	height: 1px;
+}
+.spotjam {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 393px;
+  	height: 64px;
+}
+

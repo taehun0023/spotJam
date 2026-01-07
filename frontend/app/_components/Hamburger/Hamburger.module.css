@@ -1,0 +1,585 @@
+.hamburger {
+  	width: 100%;
+  	height: 852px;
+  	position: relative;
+  	background-color: #fbfcea;
+  	overflow: hidden;
+  	text-align: center;
+  	font-size: 12px;
+  	color: #000;
+  	font-family: 'Noto Sans JP';
+}
+.bottom {
+  	position: absolute;
+  	top: 796px;
+  	left: 0px;
+  	width: 393px;
+  	height: 56px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.body {
+  	position: absolute;
+  	top: 64px;
+  	left: 0px;
+  	width: 393px;
+  	height: 737px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.div {
+  	position: absolute;
+  	top: 250px;
+  	left: 0px;
+  	width: 393px;
+  	height: 175px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 13px;
+  	font-family: 'Rounded Mplus 1c Bold';
+}
+.logout {
+  	position: absolute;
+  	top: 129px;
+  	left: 0px;
+  	border-radius: 10px;
+  	background-color: #fbfcea;
+  	width: 393px;
+  	height: 43px;
+  	overflow: hidden;
+}
+.logoutChild {
+  	position: absolute;
+  	top: 37.5px;
+  	left: 12.5px;
+  	border-top: 1px solid rgba(0, 0, 0, 0.1);
+  	box-sizing: border-box;
+  	width: 368px;
+  	height: 1px;
+  	transform:  rotate(0.2deg);
+  	transform-origin: 0 0;
+}
+.icon {
+  	position: absolute;
+  	top: 9px;
+  	left: 350px;
+  	width: 25px;
+  	height: 25px;
+  	object-fit: cover;
+}
+.b {
+  	position: absolute;
+  	top: 0px;
+  	left: 70px;
+  	display: flex;
+  	align-items: center;
+  	width: 176px;
+  	height: 39px;
+}
+.logoutIcon {
+  	position: absolute;
+  	top: 7px;
+  	left: 33px;
+  	width: 23px;
+  	height: 23px;
+  	object-fit: cover;
+}
+.div2 {
+  	position: absolute;
+  	top: 86px;
+  	left: 0px;
+  	border-radius: 10px;
+  	background-color: #fbfcea;
+  	width: 393px;
+  	height: 43px;
+  	overflow: hidden;
+}
+.icon3 {
+  	position: absolute;
+  	top: 6px;
+  	left: 34px;
+  	width: 21px;
+  	height: 21px;
+  	object-fit: cover;
+}
+.div3 {
+  	position: absolute;
+  	top: 43px;
+  	left: 0px;
+  	border-radius: 10px;
+  	background-color: #fbfcea;
+  	width: 393px;
+  	height: 43px;
+  	overflow: hidden;
+}
+.icon5 {
+  	position: absolute;
+  	top: 8px;
+  	left: 29px;
+  	width: 22px;
+  	height: 22px;
+  	object-fit: cover;
+}
+.sns {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 10px;
+  	background-color: #fbfcea;
+  	width: 393px;
+  	height: 43px;
+  	overflow: hidden;
+}
+.div4 {
+  	position: absolute;
+  	top: 122px;
+  	left: 264px;
+  	border-radius: 15px;
+  	background-color: #fff;
+  	border: 1px solid rgba(0, 0, 0, 0.3);
+  	box-sizing: border-box;
+  	width: 114px;
+  	height: 114px;
+  	overflow: hidden;
+}
+.istockphoto1389610257170667aIcon {
+  	position: absolute;
+  	top: 9px;
+  	left: 13px;
+  	width: 59px;
+  	height: 59px;
+  	object-fit: cover;
+}
+.b4 {
+  	position: absolute;
+  	top: 79px;
+  	left: 0px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 114px;
+}
+.div5 {
+  	position: absolute;
+  	top: 122px;
+  	left: 139px;
+  	border-radius: 15px;
+  	background-color: #fff;
+  	border: 1px solid rgba(0, 0, 0, 0.3);
+  	box-sizing: border-box;
+  	width: 114px;
+  	height: 114px;
+  	overflow: hidden;
+}
+.icon7 {
+  	position: absolute;
+  	top: 0px;
+  	left: -4px;
+  	width: 77px;
+  	height: 77px;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+.b5 {
+  	position: absolute;
+  	top: 79px;
+  	left: 0px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 114px;
+  	flex-shrink: 0;
+}
+.div6 {
+  	position: absolute;
+  	top: 122px;
+  	left: 14px;
+  	border-radius: 15px;
+  	background-color: #fff;
+  	border: 1px solid rgba(0, 0, 0, 0.3);
+  	box-sizing: border-box;
+  	width: 114px;
+  	height: 114px;
+  	overflow: hidden;
+}
+.icon8 {
+  	position: absolute;
+  	top: 19px;
+  	left: 14px;
+  	width: 39px;
+  	height: 39px;
+  	object-fit: cover;
+}
+.myprofile {
+  	position: absolute;
+  	top: 21px;
+  	left: 0px;
+  	width: 393px;
+  	height: 82px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 20px;
+  	font-family: 'Rounded Mplus 1c Bold';
+}
+.kumaIcon {
+  	position: absolute;
+  	top: 8px;
+  	left: 22px;
+  	border-radius: 100px;
+  	width: 66px;
+  	height: 66px;
+  	object-fit: cover;
+}
+.b7 {
+  	position: absolute;
+  	top: 26px;
+  	left: 109px;
+  	display: inline-block;
+  	width: 262px;
+  	height: 20px;
+}
+.head {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 393px;
+  	height: 64px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	font-size: 22px;
+  	font-family: 'M PLUS 2';
+}
+.headChild {
+  	position: absolute;
+  	top: 63.5px;
+  	left: -0.5px;
+  	border-top: 1px solid rgba(0, 0, 0, 0.2);
+  	box-sizing: border-box;
+  	width: 394px;
+  	height: 1px;
+}
+.spotjam {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 393px;
+  	height: 64px;
+}
+.menuIcon {
+  	position: absolute;
+  	top: 19px;
+  	left: 13px;
+  	width: 25px;
+  	height: 25px;
+  	object-fit: cover;
+}
+.icon9 {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 196.5px);
+  	width: 394px;
+  	height: 853px;
+  	flex-shrink: 0;
+}
+.menu {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	background-color: #fff;
+  	width: 321px;
+  	height: 854px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	text-align: left;
+  	font-size: 13px;
+  	font-family: 'Rounded Mplus 1c Bold';
+}
+.myprofile2 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 321px;
+  	height: 63px;
+  	overflow: hidden;
+}
+.kumaIcon2 {
+  	position: absolute;
+  	top: 13px;
+  	left: 11px;
+  	border-radius: 100px;
+  	width: 41px;
+  	height: 41px;
+  	object-fit: cover;
+}
+.b8 {
+  	position: absolute;
+  	top: 24px;
+  	left: 62px;
+  	display: inline-block;
+  	width: 81px;
+  	height: 20px;
+}
+.div7 {
+  	position: absolute;
+  	top: 64px;
+  	left: 0px;
+  	width: 321px;
+  	height: 790px;
+  	overflow: hidden;
+}
+.logout2 {
+  	position: absolute;
+  	top: 348px;
+  	left: 0px;
+  	border-radius: 10px;
+  	background-color: #fff;
+  	width: 321px;
+  	height: 43px;
+  	overflow: hidden;
+}
+.icon10 {
+  	position: absolute;
+  	top: 9px;
+  	left: 282px;
+  	width: 25px;
+  	height: 25px;
+  	object-fit: cover;
+}
+.b9 {
+  	position: absolute;
+  	top: 0px;
+  	left: 61px;
+  	display: flex;
+  	align-items: center;
+  	width: 176px;
+  	height: 39px;
+}
+.logoutIcon2 {
+  	position: absolute;
+  	top: 7px;
+  	left: 24px;
+  	width: 23px;
+  	height: 23px;
+  	object-fit: cover;
+}
+.div8 {
+  	position: absolute;
+  	top: 305px;
+  	left: 0px;
+  	border-radius: 10px;
+  	background-color: #fff;
+  	width: 321px;
+  	height: 43px;
+  	overflow: hidden;
+}
+.icon12 {
+  	position: absolute;
+  	top: 6px;
+  	left: 25px;
+  	width: 21px;
+  	height: 21px;
+  	object-fit: cover;
+}
+.div9 {
+  	position: absolute;
+  	top: 262px;
+  	left: 0px;
+  	border-radius: 10px;
+  	background-color: #fff;
+  	width: 321px;
+  	height: 43px;
+  	overflow: hidden;
+}
+.icon14 {
+  	position: absolute;
+  	top: 8px;
+  	left: 20px;
+  	width: 22px;
+  	height: 22px;
+  	object-fit: cover;
+}
+.sns3 {
+  	position: absolute;
+  	top: 219px;
+  	left: 0px;
+  	border-radius: 10px;
+  	background-color: #fff;
+  	width: 321px;
+  	height: 43px;
+  	overflow: hidden;
+}
+.icon16 {
+  	position: absolute;
+  	top: 8px;
+  	left: 21px;
+  	width: 24px;
+  	height: 24px;
+  	object-fit: cover;
+}
+.div10 {
+  	position: absolute;
+  	top: 176px;
+  	left: 0px;
+  	border-radius: 10px;
+  	background-color: #fff;
+  	width: 321px;
+  	height: 43px;
+  	overflow: hidden;
+}
+.groupIcon {
+  	position: absolute;
+  	top: 3px;
+  	left: 17px;
+  	width: 37px;
+  	height: 37px;
+  	object-fit: cover;
+}
+.div11 {
+  	position: absolute;
+  	top: 133px;
+  	left: 0px;
+  	border-radius: 10px;
+  	background-color: #fff;
+  	width: 321px;
+  	height: 43px;
+  	overflow: hidden;
+}
+.icon18 {
+  	position: absolute;
+  	top: 9px;
+  	left: 282px;
+  	width: 25px;
+  	height: 25px;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+.b13 {
+  	position: absolute;
+  	top: 0px;
+  	left: 61px;
+  	display: flex;
+  	align-items: center;
+  	width: 176px;
+  	height: 39px;
+  	flex-shrink: 0;
+}
+.icon19 {
+  	position: absolute;
+  	top: -6px;
+  	left: 9px;
+  	width: 51px;
+  	height: 51px;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+.div12 {
+  	position: absolute;
+  	top: 90px;
+  	left: 0px;
+  	border-radius: 10px;
+  	background-color: #fff;
+  	width: 321px;
+  	height: 43px;
+  	overflow: hidden;
+}
+.icon21 {
+  	position: absolute;
+  	top: 7px;
+  	left: 24px;
+  	width: 26px;
+  	height: 26px;
+  	object-fit: cover;
+}
+.div13 {
+  	position: absolute;
+  	top: 12px;
+  	left: 216px;
+  	border-radius: 10px;
+  	background-color: #ccd5ae;
+  	border: 1px solid rgba(0, 0, 0, 0.3);
+  	box-sizing: border-box;
+  	width: 87px;
+  	height: 64px;
+  	overflow: hidden;
+  	text-align: center;
+  	font-size: 14px;
+  	font-family: 'Noto Sans JP';
+}
+.b15 {
+  	position: absolute;
+  	top: 40px;
+  	left: 0px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 85px;
+}
+.icon22 {
+  	position: absolute;
+  	top: 0px;
+  	left: 18px;
+  	width: 49px;
+  	height: 49px;
+  	object-fit: cover;
+}
+.div14 {
+  	position: absolute;
+  	top: 12px;
+  	left: 118px;
+  	border-radius: 10px;
+  	background-color: #ccd5ae;
+  	border: 1px solid rgba(0, 0, 0, 0.3);
+  	box-sizing: border-box;
+  	width: 87px;
+  	height: 64px;
+  	overflow: hidden;
+  	text-align: center;
+  	font-size: 14px;
+  	font-family: 'Noto Sans JP';
+}
+.icon23 {
+  	position: absolute;
+  	top: 9px;
+  	left: 30px;
+  	width: 27px;
+  	height: 27px;
+  	object-fit: cover;
+}
+.div15 {
+  	position: absolute;
+  	top: 12px;
+  	left: 20px;
+  	border-radius: 10px;
+  	background-color: #ccd5ae;
+  	border: 1px solid rgba(0, 0, 0, 0.3);
+  	box-sizing: border-box;
+  	width: 87px;
+  	height: 64px;
+  	overflow: hidden;
+  	text-align: center;
+  	font-size: 14px;
+  	font-family: 'Noto Sans JP';
+}
+.mapIcon {
+  	position: absolute;
+  	top: 8px;
+  	left: 28px;
+  	width: 30px;
+  	height: 30px;
+  	object-fit: cover;
+}
+.menuChild {
+  	position: absolute;
+  	top: 63.5px;
+  	left: -0.5px;
+  	border-top: 1px solid rgba(0, 0, 0, 0.2);
+  	box-sizing: border-box;
+  	width: 322px;
+  	height: 1px;
+  	transform:  rotate(-0.2deg);
+  	transform-origin: 0 0;
+}
+

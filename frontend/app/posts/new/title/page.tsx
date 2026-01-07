@@ -3,7 +3,11 @@ import styles from "./page.module.css";
 
 export default function Page() {
   	return (
-    		<div className={styles.post2}>
+    		<div className={styles.postfull2}>
+      			<div className={styles.head}>
+        				<b className={styles.spotjam}>spotJam</b>
+        				<div className={styles.headChild} />
+      			</div>
       			<div className={styles.body}>
         				<div className={styles.post}>
           					<div className={styles.div}>…</div>
@@ -15,7 +19,10 @@ export default function Page() {
           					<div className={styles.div5}>1/2</div>
           					<div className={styles.div6}>＃中華＃火鍋＃食べ放題</div>
           					<img className={styles.icon3} alt="" />
-          					<div className={styles.shokumiTenkaHotpot}>大阪・蜀味天下（Shokumi Tenka Hotpot Restaurant)...</div>
+          					<div className={styles.full}>
+            						<div className={styles.shokumiTenkaHotpot}>大阪・蜀味天下（Shokumi Tenka Hotpot Restaurant)に行ってみました！💕</div>
+          					</div>
+          					<div className={styles.shokumiTenkaHotpot2}>大阪・蜀味天下（Shokumi Tenka Hotpot Restaurant)...</div>
           					<img className={styles.icon4} alt="" />
           					<img className={styles.icon5} alt="" />
           					<img className={styles.icon6} alt="" />
@@ -23,11 +30,7 @@ export default function Page() {
           					<img className={styles.icon7} alt="" />
         				</div>
       			</div>
-      			<div className={styles.head}>
-        				<b className={styles.spotjam}>spotJam</b>
-        				<div className={styles.headChild} />
-      			</div>
     		</div>);
 };
 
-export default POST2 as FunctionComponent;
+export default POSTFULL2 as FunctionComponent;

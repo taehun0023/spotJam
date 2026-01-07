@@ -1,4 +1,4 @@
-package com.spotjam.backend.web;
+package com.spotjam.backend.global.health;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -9,6 +9,7 @@ public class HealthController {
 
     @GetMapping("/_health")
     public Map<String, Object> health() {
+
         return Map.of(
             "status", "ok",
             "ts", System.currentTimeMillis()

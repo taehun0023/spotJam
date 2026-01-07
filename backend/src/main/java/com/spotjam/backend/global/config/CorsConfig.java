@@ -1,4 +1,4 @@
-package com.spotjam.backend.config;
+package com.spotjam.backend.global.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
